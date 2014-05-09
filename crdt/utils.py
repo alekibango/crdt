@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import bisect
+from collections import MutableSet
+
 
 class SortedSet(MutableSet):
     def __init__(self, items):
